@@ -16,5 +16,15 @@ namespace DibujarRectangulosFactory
         {
             InitializeComponent();
         }
+
+        private void btnSelectColor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDrawRectangle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

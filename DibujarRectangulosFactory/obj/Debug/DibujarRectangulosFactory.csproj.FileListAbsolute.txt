@@ -1,0 +1,10 @@
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.csproj.AssemblyReference.cache
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.Form1.resources
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.Properties.Resources.resources
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.csproj.GenerateResource.cache
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.csproj.CoreCompileInputs.cache
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.exe
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\obj\Debug\DibujarRectangulosFactory.pdb
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\bin\Debug\DibujarRectangulosFactory.exe.config
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\bin\Debug\DibujarRectangulosFactory.exe
+C:\Users\deivy\source\repos\DibujarRectangulosFactory\DibujarRectangulosFactory\bin\Debug\DibujarRectangulosFactory.pdb
