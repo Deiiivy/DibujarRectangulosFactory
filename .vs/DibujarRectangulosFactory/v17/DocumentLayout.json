@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\figurafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\figurafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|c:\\users\\deivy\\source\\repos\\dibujarrectangulosfactory\\dibujarrectangulosfactory\\rectangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\rectangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\rectangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|c:\\users\\deivy\\source\\repos\\dibujarrectangulosfactory\\dibujarrectangulosfactory\\figurafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\figurafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|solutionrelative:dibujarrectangulosfactory\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{350A052A-660A-4AB7-89EE-CD2CF4540AA9}|DibujarRectangulosFactory\\DibujarRectangulosFactory.csproj|C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\dibujarrectangulosfactory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,8 @@
               "RelativeToolTip": "DibujarRectangulosFactory\\Form1.Designer.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowH4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:48:02.863Z"
+              "WhenOpened": "2025-03-27T23:48:02.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,29 +67,31 @@
               "RelativeToolTip": "DibujarRectangulosFactory\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:40:22.593Z"
+              "WhenOpened": "2025-03-27T23:40:22.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Form1.cs",
               "RelativeDocumentMoniker": "DibujarRectangulosFactory\\Form1.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Form1.cs",
               "RelativeToolTip": "DibujarRectangulosFactory\\Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:39:23.27Z"
+              "WhenOpened": "2025-03-27T23:39:23.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FiguraFactory.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\FiguraFactory.cs",
               "RelativeDocumentMoniker": "DibujarRectangulosFactory\\FiguraFactory.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\FiguraFactory.cs",
               "RelativeToolTip": "DibujarRectangulosFactory\\FiguraFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T23:32:20.644Z",
               "EditorCaption": ""
@@ -101,22 +104,23 @@
               "RelativeDocumentMoniker": "DibujarRectangulosFactory\\Rectangulo.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Rectangulo.cs",
               "RelativeToolTip": "DibujarRectangulosFactory\\Rectangulo.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T23:31:12.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Figura.cs",
               "DocumentMoniker": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Figura.cs",
               "RelativeDocumentMoniker": "DibujarRectangulosFactory\\Figura.cs",
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Figura.cs",
               "RelativeToolTip": "DibujarRectangulosFactory\\Figura.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:30:19.549Z"
+              "WhenOpened": "2025-03-27T23:30:19.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -127,7 +131,8 @@
               "ToolTip": "C:\\Users\\deivy\\source\\repos\\DibujarRectangulosFactory\\DibujarRectangulosFactory\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "DibujarRectangulosFactory\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T23:16:57.864Z"
+              "WhenOpened": "2025-03-27T23:16:57.864Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
