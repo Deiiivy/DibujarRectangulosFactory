@@ -13,13 +13,14 @@ namespace DibujarRectangulosFactory
     public partial class Form1 : Form
     {
         private Color selectedColor = Color.Black;
+
         public Form1()
         {
             InitializeComponent();
             drawingPanel.Paint += drawingPanel_Paint;
+            cmbFigura.Items.AddRange(new string[] { "Rectángulo", "Círculo", "Línea", "Triángulo" });
+            cmbFigura.SelectedIndex = 0;
         }
-
-
 
         private void btnSelectColor_Click(object sender, EventArgs e)
         {
@@ -33,7 +34,7 @@ namespace DibujarRectangulosFactory
             }
         }
 
-        private void btnDrawRectangle_Click(object sender, EventArgs e)
+        private void btnDraw_Click(object sender, EventArgs e)
         {
             try
             {
@@ -46,11 +47,11 @@ namespace DibujarRectangulosFactory
                     return;
                 }
 
-                FiguraFactory.CrearFigura(x, y, selectedColor);
+                string tipoFigura = cmbFigura.SelectedItem.ToString();
+                FiguraFactory.CrearFigura(tipoFigura, x, y, selectedColor);
 
                 drawingPanel.Invalidate();
-
-                txtCounter.Text = Rectangulo.Contador.ToString();
+                txtCounter.Text = Figura.Figuras.Count.ToString();
             }
             catch (FormatException)
             {
@@ -66,10 +67,7 @@ namespace DibujarRectangulosFactory
         {
             foreach (var figura in Figura.Figuras)
             {
-                using(SolidBrush brush = new SolidBrush(figura.Color))
-                {
-                    e.Graphics.FillRectangle(brush, figura.X, figura.Y, 50, 30);
-                }
+                figura.Dibujar(e.Graphics);
             }
         }
     }

@@ -35,6 +35,10 @@
             this.txtCounter = new System.Windows.Forms.TextBox();
             this.picColorPreview = new System.Windows.Forms.PictureBox();
             this.drawingPanel = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cmbFigura = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picColorPreview)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +64,6 @@
             this.btnDrawRectangle.TabIndex = 2;
             this.btnDrawRectangle.Text = "Dibujar triangulo";
             this.btnDrawRectangle.UseVisualStyleBackColor = true;
-            this.btnDrawRectangle.Click += new System.EventHandler(this.btnDrawRectangle_Click);
             // 
             // btnSelectColor
             // 
@@ -96,11 +99,50 @@
             this.drawingPanel.Size = new System.Drawing.Size(722, 227);
             this.drawingPanel.TabIndex = 6;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(9, 65);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(14, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Y";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(212, 61);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "X";
+            // 
+            // cmbFigura
+            // 
+            this.cmbFigura.FormattingEnabled = true;
+            this.cmbFigura.Location = new System.Drawing.Point(733, 53);
+            this.cmbFigura.Name = "cmbFigura";
+            this.cmbFigura.Size = new System.Drawing.Size(101, 21);
+            this.cmbFigura.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(751, 34);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Elije la figura";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(846, 450);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.cmbFigura);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.drawingPanel);
             this.Controls.Add(this.picColorPreview);
             this.Controls.Add(this.txtCounter);
@@ -125,6 +167,10 @@
         private System.Windows.Forms.TextBox txtCounter;
         private System.Windows.Forms.PictureBox picColorPreview;
         private System.Windows.Forms.Panel drawingPanel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cmbFigura;
+        private System.Windows.Forms.Label label3;
     }
 }
 
