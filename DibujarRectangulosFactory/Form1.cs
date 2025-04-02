@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
+
+
+
 
 namespace DibujarRectangulosFactory
 {
@@ -48,10 +52,16 @@ namespace DibujarRectangulosFactory
                 }
 
                 string tipoFigura = cmbFigura.SelectedItem.ToString();
-                FiguraFactory.CrearFigura(tipoFigura, x, y, selectedColor);
+                Figura nuevaFigura = FiguraFactory.CrearFigura(tipoFigura, x, y, selectedColor);
 
-                drawingPanel.Invalidate();
-                txtCounter.Text = Figura.Figuras.Count.ToString();
+                // Debugging
+                Debug.WriteLine($"Se agregó una figura, total: {Figura.Figuras.Count}");
+                foreach (var fig in Figura.Figuras)
+                {
+                    Debug.WriteLine($"Figura en X: {fig.X}, Y: {fig.Y}");
+                }
+
+                drawingPanel.Invalidate(); // Redibujar el panel
             }
             catch (FormatException)
             {

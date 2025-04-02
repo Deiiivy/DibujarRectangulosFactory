@@ -15,11 +15,10 @@ namespace DibujarRectangulosFactory
 
         public override void Dibujar(Graphics g)
         {
-            using (Pen pen = new Pen(Color, 3))
+            using (Pen pen = new Pen(Color, 2))
             {
                 g.DrawLine(pen, X, Y, X + longitud, Y);
             }
         }
     }
 }
-

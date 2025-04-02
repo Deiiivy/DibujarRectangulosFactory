@@ -4,22 +4,36 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
+using DibujarRectangulosFactory;
 
-namespace DibujarRectangulosFactory
+public static class FiguraFactory
 {
-    public static class FiguraFactory
+    public static Figura CrearFigura(string tipo, int x, int y, Color color)
     {
-        public static Figura CrearFigura(string tipo, int x, int y, Color color)
+        Figura nuevaFigura;
+
+        if (tipo == "Rectángulo")
         {
-            switch (tipo)
-            {
-                case "Rectángulo": return new Rectangulo(x, y, color);
-                case "Círculo": return new Circulo(x, y, color);
-                case "Línea": return new Linea(x, y, color);
-                case "Triángulo": return new Triangulo(x, y, color);
-                default: throw new ArgumentException("Tipo de figura no válido");
-            }
+            nuevaFigura = new Rectangulo(x, y, color);
+        }
+        else if (tipo == "Círculo")
+        {
+            nuevaFigura = new Circulo(x, y, color);
+        }
+        else if (tipo == "Línea")
+        {
+            nuevaFigura = new Linea(x, y, color);
+        }
+        else if (tipo == "Triángulo")
+        {
+            nuevaFigura = new Triangulo(x, y, color);
+        }
+        else
+        {
+            throw new ArgumentException("Tipo de figura no válido");
         }
 
+        Figura.Figuras.Add(nuevaFigura); 
+        return nuevaFigura;
     }
 }

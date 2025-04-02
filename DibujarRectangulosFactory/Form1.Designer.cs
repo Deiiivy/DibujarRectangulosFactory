@@ -30,7 +30,7 @@
         {
             this.txtY = new System.Windows.Forms.TextBox();
             this.txtX = new System.Windows.Forms.TextBox();
-            this.btnDrawRectangle = new System.Windows.Forms.Button();
+            this.btnDraw = new System.Windows.Forms.Button();
             this.btnSelectColor = new System.Windows.Forms.Button();
             this.txtCounter = new System.Windows.Forms.TextBox();
             this.picColorPreview = new System.Windows.Forms.PictureBox();
@@ -56,14 +56,15 @@
             this.txtX.Size = new System.Drawing.Size(150, 20);
             this.txtX.TabIndex = 1;
             // 
-            // btnDrawRectangle
+            // btnDraw
             // 
-            this.btnDrawRectangle.Location = new System.Drawing.Point(418, 56);
-            this.btnDrawRectangle.Name = "btnDrawRectangle";
-            this.btnDrawRectangle.Size = new System.Drawing.Size(75, 23);
-            this.btnDrawRectangle.TabIndex = 2;
-            this.btnDrawRectangle.Text = "Dibujar triangulo";
-            this.btnDrawRectangle.UseVisualStyleBackColor = true;
+            this.btnDraw.Location = new System.Drawing.Point(418, 56);
+            this.btnDraw.Name = "btnDraw";
+            this.btnDraw.Size = new System.Drawing.Size(75, 23);
+            this.btnDraw.TabIndex = 2;
+            this.btnDraw.Text = "Dibujar triangulo";
+            this.btnDraw.UseVisualStyleBackColor = true;
+            this.btnDraw.Click += new System.EventHandler(this.btnDraw_Click);
             // 
             // btnSelectColor
             // 
@@ -147,7 +148,7 @@
             this.Controls.Add(this.picColorPreview);
             this.Controls.Add(this.txtCounter);
             this.Controls.Add(this.btnSelectColor);
-            this.Controls.Add(this.btnDrawRectangle);
+            this.Controls.Add(this.btnDraw);
             this.Controls.Add(this.txtX);
             this.Controls.Add(this.txtY);
             this.Name = "Form1";
@@ -162,7 +163,7 @@
 
         private System.Windows.Forms.TextBox txtY;
         private System.Windows.Forms.TextBox txtX;
-        private System.Windows.Forms.Button btnDrawRectangle;
+        private System.Windows.Forms.Button btnDraw;
         private System.Windows.Forms.Button btnSelectColor;
         private System.Windows.Forms.TextBox txtCounter;
         private System.Windows.Forms.PictureBox picColorPreview;
